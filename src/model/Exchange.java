@@ -18,4 +18,9 @@ public class Exchange {
         return currency;
     }
     
+    @Override
+    public String toString() {
+        return money + " " + money.getCurrency(); 
+    }
+    
 }

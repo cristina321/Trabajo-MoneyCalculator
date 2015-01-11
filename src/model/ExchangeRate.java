@@ -23,8 +23,7 @@ private final Currency from, to;
         return rate;
     }
 
-    public Currency getToCurrency() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+     public String toString(){
+        return Double.toString(rate);
     }
-    
 }
